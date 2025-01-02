@@ -25,7 +25,7 @@ kind: Service
 metadata:
   name: devops
 spec:
-  type: NordPort
+  type: NodePort
   selector:
     app: my-app
 
